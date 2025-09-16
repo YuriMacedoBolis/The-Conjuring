@@ -1,0 +1,39 @@
+@media (max-width:1280px){
+    body{
+        padding: 0px  40px;
+    }
+}
+
+@media (max-width:768px){
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:480px){
+    .informacoes .titulo{
+        max-width: 300px;
+    }
+
+    .informacoes .descricao{
+        width: 100%;
+    }
+
+    .contatos{
+        position:static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contatos ul{
+        flex-direction: row;
+    }
+
+    .informacoes{
+        min-height: 70vh;
+        gap: 50px;
+    }
+}
